@@ -17,6 +17,16 @@ cph-mr462
 **Onsdags opgaver**
 Link til github repository mappe med kode
 - https://github.com/Amazingh0rse/3sem-week3-MOVIE/tree/master/wednesday
+The JavaScript Array
+
+The JavaScript Array opg A - M:
+- javascriptArray.js
+
+JavaScript Functions and callbacks opg 1-5:  
+- javascriptDay1FunctionsAndCallbacks.js
+
+JavaScript Functions and callbacks 1-3:  
+- javascriptDay1Callback.js
 
 **Torsdag**
 Link til github repository mappe med kode
