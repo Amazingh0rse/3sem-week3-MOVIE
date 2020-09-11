@@ -1,6 +1,17 @@
 
 [![Build Status](https://travis-ci.com/Amazingh0rse/3sem-week3-MOVIE.svg?branch=master)](https://travis-ci.com/Amazingh0rse/3sem-week3-MOVIE)
 
-Morten Rahbek Rasmussen aka amazingh0rse
+3sem-week3-OPG
+Morten Rahbek Rasmussen cph-mr462
 
-Projektet er live på https://amazingh0rse.dk/W3D2_EX2/
+Movie projekt
+
+Domain: https://amazingh0rse.dk/W3D2_EX2/
+Github: https://github.com/Amazingh0rse/3sem-week3-MOVIE
+
+Onsdags opgaver
+
+https://github.com/Amazingh0rse/3sem-week3-OPG
+Torsdag
+
+https://github.com/Amazingh0rse/3sem-week3-OPG
