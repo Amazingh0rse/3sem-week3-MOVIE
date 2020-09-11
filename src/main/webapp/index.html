@@ -4,62 +4,88 @@
     <head>
         <title>Movie database</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <style>
             body{
-                background-color: #0066ff;
-                color: #e4e4e4;
-                margin-top: 10%;
+                background-color: #cccccc;
+                margin-top: 5%;
                 margin-left: 20%;
                 margin-right: 20%;
                 font-family: arial, sans-serif;
+            }
+            * {
+                box-sizing: border-box;
+            }
+
+            /* Create three equal columns that floats next to each other */
+            .column {
+                float: left;
+                width: 50%;
+                padding: 10px;
+                height: 300px; /* Should be removed. Only for demonstration */
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
             }
         </style>
     </head>
     <body>
         <h1 style="display: inline-block">The <strike>worst</strike> BEST Movie Database on the internet &nbsp;</h1>
-                    <p style="display: inline-block; font-size: 0.7em">it's really..really <strike>bad</strike> great!</p>
-        
-        <h3>The database now has *drumroll* 3!!! movies in the database, <br><br> What an amazing accomplishment...We should get a medal or an award for this</h3>
-        <ul><br>
-        <p>Check out the amazing features here</p>
-     
+        <p style="display: inline-block; font-size: 0.7em">it's really..really <strike>bad</strike> great!</p><hr>
+<br>
+<h5>The database now has *drumroll* 3!!! movies in the database, <br><br> What an amazing accomplishment...We should get a medal or an award for this</h5>
+
+<ul><br>
+    <div class="row">
+        <div class="column" >
+            <b> Links til repositories</b><br><br>
+
+            <li><a href="https://github.com/Amazingh0rse/3sem-week3-MOVIE/">Link to github repository</a><br></li>
+            <li><a href="https://travis-ci.com/github/Amazingh0rse/3sem-week3-MOVIE">Link to travis</a><br></li>
+            <li><a href="https://github.com/Amazingh0rse/3sem-week3-MOVIE/tree/master/wednesday">Onsdags opgaver</a><br></li>
+            <li><a href="https://github.com/Amazingh0rse/3sem-week3-MOVIE/tree/master/thursday">Torsdags opgaver</a><br></li> 
+        </div>
+
+        <div class="column" >
+            <p><b>Check out the amazing features of the movie database here</b></p>
             <li><a href="https://amazingh0rse.dk/W3D2_EX2/api/movie">Movie home</a><br></li>    
             <li><a href="https://amazingh0rse.dk/W3D2_EX2/api/movie/all">Shows all movies in database</a><br></li>
             <li><a href="https://amazingh0rse.dk/W3D2_EX2/api/movie/count">Shows the total amount of movies in databases</a><br></li>
             <li><a href="https://amazingh0rse.dk/W3D2_EX2/api/movie/2">Shows the movie with id 2</a><br></li>
             <li><a href="https://amazingh0rse.dk/W3D2_EX2/api/movie/title/Harry Potter and the Chamber of Secrets">Shows info about Harry Potter and the Chamber of Secrets</a><br></li>
-           
-            <br> <br> <br>
-            Github repository
-            <li><a href="https://github.com/Amazingh0rse/3sem-week3-MOVIE/">Link to github repository</a><br></li>
-            <br>
-            Travis
-             <li><a href="https://travis-ci.com/github/Amazingh0rse/3sem-week3-MOVIE">Link to travis</a><br></li>
-            <br><br>
-            
-            
-            
-            
-            
-        </ul>
-        <ul>
-            Direkte Link til github repository mappe med kode for onsdags opgaver
-            <li><a href="https://github.com/Amazingh0rse/3sem-week3-MOVIE/tree/master/wednesday">Onsdags opgaver</a><br></li>
-            <br>
-            Direkte Link til github repository mappe med kode for torsdags opgaver
-            <li><a href="https://github.com/Amazingh0rse/3sem-week3-MOVIE/tree/master/thursday">Torsdags opgaver</a><br></li> 
-            
-            <br>
-            Live html sider for Torsdags opgaver
-            <li><a href="https://amazingh0rse.dk/W3D2_EX2/opg1AB-DomMan.html">opgave 1 A&B Dom Manipulation and Events</a><br></li> 
-            <li><a href="https://amazingh0rse.dk/W3D2_EX2/Opg2abcBubbing.html">opgave 2 ABC Event Bubbling and event arguments</a><br></li> 
-            <li><a href="https://amazingh0rse.dk/W3D2_EX2/opg3abcMap.html">opgave 3 ABC Using map to create list’s (ul’s, tables etc.)</a><br></li> 
-            <li><a href="https://amazingh0rse.dk/W3D2_EX2/opg4mapfilter.html">opgave 4 Using map and filter to create dynamic table-rows</a><br></li> 
-            <li><a href="https://amazingh0rse.dk/W3D2_EX2/opg5Calculator.html">opgave 5 Implement a simple calculator</a><br></li> 
-            
-            <br>FetchApi
-            <li><a href="https://amazingh0rse.dk/W3D2_EX2/FetchApi.html">prototype api</a><br></li> 
-            
-        </ul>
-    </body>
+        </div>
+
+    
+            <div class="column">
+                <b>Live html sider for Torsdags opgaver</b><br><br>
+                <li><a href="https://amazingh0rse.dk/W3D2_EX2/opg1AB-DomMan.html">opgave 1 A&B Dom Manipulation and Events</a><br></li> 
+                <li><a href="https://amazingh0rse.dk/W3D2_EX2/Opg2abcBubbing.html">opgave 2 ABC Event Bubbling and event arguments</a><br></li> 
+                <li><a href="https://amazingh0rse.dk/W3D2_EX2/opg3abcMap.html">opgave 3 ABC Using map to create list’s (ul’s, tables etc.)</a><br></li> 
+                <li><a href="https://amazingh0rse.dk/W3D2_EX2/opg4mapfilter.html">opgave 4 Using map and filter to create dynamic table-rows</a><br></li> 
+                <li><a href="https://amazingh0rse.dk/W3D2_EX2/opg5Calculator.html">opgave 5 Implement a simple calculator</a><br></li> 
+            </div>
+            <div class="column">
+                <br><b>FetchApi</b><br><br>
+                <li><a href="https://amazingh0rse.dk/W3D2_EX2/FetchApi.html">prototype api</a><br></li> 
+            </div>
+
+    
+
+
+
+
+
+
+
+</ul>
+<ul>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+</ul>
+</body>
 </html>
