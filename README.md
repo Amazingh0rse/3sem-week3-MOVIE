@@ -4,14 +4,18 @@
 3sem-week3-OPG
 Morten Rahbek Rasmussen cph-mr462
 
-Movie projekt
+## 3sem-week3-OPG
 
-Domain: https://amazingh0rse.dk/W3D2_EX2/
-Github: https://github.com/Amazingh0rse/3sem-week3-MOVIE
+Morten Rahbek Rasmussen
+cph-mr462
 
-Onsdags opgaver
+**Movie projekt**
 
-https://github.com/Amazingh0rse/3sem-week3-OPG
-Torsdag
+- Domain: https://amazingh0rse.dk/W3D2_EX2/
+- Github: https://github.com/Amazingh0rse/3sem-week3-MOVIE
 
-https://github.com/Amazingh0rse/3sem-week3-OPG
+**Onsdags opgaver**
+- https://github.com/Amazingh0rse/3sem-week3-MOVIE/tree/master/wednesday
+- 
+**Torsdag**
+- https://github.com/Amazingh0rse/3sem-week3-MOVIE/tree/master/thursday
