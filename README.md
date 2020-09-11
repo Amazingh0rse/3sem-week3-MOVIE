@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Amazingh0rse/3sem-week3-MOVIE.svg?branch=master)](https://travis-ci.org/Amazingh0rse/3sem-week3-MOVIE)
+[![Build Status](https://travis-ci.com/Amazingh0rse/3sem-week3-MOVIE.svg?branch=master)](https://travis-ci.com/Amazingh0rse/3sem-week3-MOVIE)
 
 #This project is meant as start code for projects and exercises given in Flow-1+2 at http://cphbusiness.dk in the Study Program "AP degree in Computer Science
 
