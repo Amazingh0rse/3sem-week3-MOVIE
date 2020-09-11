@@ -3,6 +3,4 @@
 
 Morten Rahbek Rasmussen aka amazingh0rse
 
-Projektet er live på http://www.amazingh0rse.dk/ 
-/
-Movie database is live @  https://amazingh0rse.dk/W3D2_EX2/
+Projektet er live på https://amazingh0rse.dk/W3D2_EX2/
